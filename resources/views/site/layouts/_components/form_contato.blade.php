@@ -7,14 +7,16 @@
     <br>
     <input name="email" type="text" placeholder="E-mail" class="borda-preta">
     <br>
-    <select name="motivo_contato" class="borda-preta">
+    <select name="motivo" class="borda-preta">
         <option value="">Qual o motivo do contato?</option>
         <option value="1">Dúvida</option>
         <option value="2">Elogio</option>
         <option value="3">Reclamação</option>
+        <option value="4">Sugestão</option>
+        <option value="5">Cancelamento</option>
     </select>
     <br>
-    <textarea name="mensagem" class="borda-preta">Preencha aqui a sua mensagem</textarea>
+    <textarea name="mensagem" class="borda-preta" placeholder="Preencha aqui a sua mensagem"></textarea>
     <br>
     <button type="submit" class="borda-preta">ENVIAR</button>
 </form>

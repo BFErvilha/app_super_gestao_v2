@@ -27,7 +27,7 @@ Route::prefix('/app')->group(function (){
 Route::get('/teste/{p1}/{p2}', [\App\Http\Controllers\TesteController::class,'teste'] )->name('teste');
 
 
-Route::post('/contato', [\App\Http\Controllers\ContatoController::class,'contato'])->name('site.contato');
+Route::post('/contato', [\App\Http\Controllers\ContatoController::class,'salvar'])->name('site.contato');
 
 Route::fallback(function (){
     echo 'A rota acessada não existe. <a href="'. route('site.principal') .'">clique aqui </a> para retonar a página inicial';
